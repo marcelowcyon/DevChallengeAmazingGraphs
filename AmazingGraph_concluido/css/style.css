@@ -1,0 +1,150 @@
+ html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    font-weight: bold;
+    
+    color: #D2872C;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 75%;
+/*     background-color: red;
+ */}
+
+li{
+    margin-top: 30px;
+    margin-right: 15px;
+    font-size: 22px;
+    color: #766F68;
+}
+
+/*body*/
+
+img{
+    width:100vh;
+    position: absolute;
+    left: 43%;
+    top: 30%;
+}
+
+.text{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 25%;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #766F68;
+}
+
+p{
+    font-size: 20px;
+    color: #766F68;
+}
+
+button{
+    background-color: #D2872C;
+    width: 270px;
+    height: 60px;
+    border-radius: 5px;
+    position: relative;
+    left: 400px;
+    margin-top: 30px;
+
+    font-size: 25px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.checkbtn{
+    font-size: 40px;
+    color: #D2872C;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+ #check{
+     display: none;
+ }
+
+
+
+
+ @media only screen and ( max-width: 580px ) {
+    ul{
+        display: none;
+    }
+
+    h2{
+        margin-top: 45px;
+
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .checkbtn{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 40px;
+        color: #766F68;
+    }
+
+     img{
+        position: absolute;
+        width: 306px;
+        height: 189px;
+        left: 34px;
+        top: 148px;
+     }
+     h1{
+        position: absolute;
+        width: 257px;
+        height: 56px;
+        right: 50px;
+        top: 200px;
+
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+     }
+     p{
+        position: absolute;
+        width: 254px;
+        height: 41px;
+        right: 50px;
+        top: 300px;
+
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+     }
+
+     button{
+        position: absolute;
+        width: 266px;
+        height: 67px;
+        left: 60px;
+        top: 70%;
+     }
+ }
